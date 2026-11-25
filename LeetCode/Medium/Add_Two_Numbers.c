@@ -1,32 +1,31 @@
 /*
  * Problem: 2. Add Two Numbers
  * Source: LeetCode
- * URL: https://leetcode.com/problems/add-two-numbers/
+ * URL: https://leetcode.com/problems/add-two-numbers/submissions/2203087156/
  * Difficulty: Medium
  * Language: C
- * Solved on: 2026-11-25 07:59:39 UTC
+ * Solved on: 2026-11-25 08:00:52 UTC
  * Created by Anunay Srivastava
  * Synced by: DSA Tracker
  */
 
-*     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
-        ListNode* head = new ListNode(-1);
+def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        dum = ListNode(0)
+        curr = dum
+        carry = 0
 
-        ListNode* tail= head;
+        while l1 or l2 or carry:
+            x = l1.val if l1 else 0
+            y = l2.val if l2 else 0
 
-        ListNode* temp1 = l1;
-        ListNode* temp2 = l2;
+            total = x + y + carry
+            carry = total // 10
 
-        int carry=0;
-        int sum=0;
-        while(temp1 !=nullptr || temp2!=nullptr || carry)
+            curr.next = ListNode(total % 10)
+            curr = curr.next
+
+            if l1:
+                l1 = l1.next
+            if l2:
+                l2 = l2.next
+        return dum.next

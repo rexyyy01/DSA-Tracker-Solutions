@@ -15,7 +15,7 @@ Synced automatically using [**DSA Tracker**](https://github.com/anunaysrivastava
 - 🟧 **LeetCode:** 2
 - 🟩 **HackerRank:** 0
 
-- **Last Updated:** Wed, 25 Nov 2026 08:01:56 GMT
+- **Last Updated:** Wed, 25 Nov 2026 08:03:04 GMT
 
 ---
 
@@ -24,6 +24,6 @@ Synced automatically using [**DSA Tracker**](https://github.com/anunaysrivastava
 | # | Platform | Problem Name | Difficulty | Language | Solution |
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | 1 | 🟧 LeetCode | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/submissions/2203087156/) | 🟠 Medium | C | [Solution](LeetCode/Medium/Add_Two_Numbers.c) |
-| 2 | 🟧 LeetCode | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟠 Medium | Python3 | [Solution](LeetCode/Medium/Longest_Palindromic_Substring.py) |
+| 2 | 🟧 LeetCode | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/2203087774/) | 🟠 Medium | Python3 | [Solution](LeetCode/Medium/Longest_Palindromic_Substring.py) |
 ---
 *Automated with ❤️ by [**DSA Tracker**](https://github.com/anunaysrivastava04-coder) • Created by [**Anunay Srivastava**](https://github.com/anunaysrivastava04-coder) ([LinkedIn](https://www.linkedin.com/in/anunay-srivastava-2638a1362/) • [Instagram](https://www.instagram.com/anunay_srivastava108)).*

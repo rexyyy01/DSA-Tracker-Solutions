@@ -3,7 +3,7 @@
 # URL: https://leetcode.com/problems/longest-palindromic-substring/submissions/2203087774/
 # Difficulty: Medium
 # Language: Python3
-# Solved on: 2026-11-25 08:03:04 UTC
+# Solved on: 2026-11-25 08:05:57 UTC
 # Created by Anunay Srivastava
 # Synced by: DSA Tracker
 
